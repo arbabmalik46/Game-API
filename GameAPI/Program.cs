@@ -41,7 +41,7 @@ app.MapPut("games/{id}",(int id,UpdateGameDTO newGameDto) => {
         newGameDto.name,
         newGameDto.Genre,
         newGameDto.price,
-        newGameDto.ReleaseDate
+        newGameDto.ReleaseDate 
     );
     return Results.NoContent();
 });

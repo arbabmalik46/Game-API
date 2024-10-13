@@ -13,3 +13,14 @@ Content-Type: application/json
     "price":19.99,
     "ReleaseDate":"2011-11-18"
 }
+
+###
+PUT http://localhost:5186/games/1
+Content-Type: application/json
+
+{
+    "name": "Assassin's Creed Valhalla",
+    "genre": "Adventure",
+    "price": 39.99,
+    "releaseDate": "2010-05-22"
+}
