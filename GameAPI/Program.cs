@@ -45,4 +45,9 @@ app.MapPut("games/{id}",(int id,UpdateGameDTO newGameDto) => {
     );
     return Results.NoContent();
 });
+
+app.MapDelete("games/{id}",(int id)=>{
+    gameDTOs.RemoveAll(x=>x.ID == id);
+    return Results.NoContent();
+});
 app.Run();
