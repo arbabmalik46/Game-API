@@ -1,4 +1,4 @@
-namespace GameAPI.DTOs;
+namespace GameAPI;
 
 public record class UpdateGameDTO(
     int Id,
