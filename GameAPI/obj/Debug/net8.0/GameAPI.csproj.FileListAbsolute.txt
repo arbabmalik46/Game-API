@@ -23,3 +23,4 @@ C:\Users\Administrator.DESKTOP-FV0TUV8\Documents\My Projects\ASP.Net Core\GameAP
 C:\Users\Administrator.DESKTOP-FV0TUV8\Documents\My Projects\ASP.Net Core\GameAPI\obj\Debug\net8.0\GameAPI.pdb
 C:\Users\Administrator.DESKTOP-FV0TUV8\Documents\My Projects\ASP.Net Core\GameAPI\obj\Debug\net8.0\GameAPI.genruntimeconfig.cache
 C:\Users\Administrator.DESKTOP-FV0TUV8\Documents\My Projects\ASP.Net Core\GameAPI\obj\Debug\net8.0\ref\GameAPI.dll
+C:\Users\Administrator.DESKTOP-FV0TUV8\Documents\My Projects\ASP.Net Core\GameAPI\obj\Debug\net8.0\GameAPI.sourcelink.json
