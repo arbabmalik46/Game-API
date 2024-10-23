@@ -17,7 +17,8 @@ public static class GamesEndPoints
     ];
     public static RouteGroupBuilder MapGamesEndPoints(this WebApplication app)
     {
-        var groups = app.MapGroup("games");
+        var groups = app.MapGroup("games")
+                        .WithParameterValidation();
         //Get Games 
         groups.MapGet("/",()=>gameDTOs);
 
@@ -29,11 +30,6 @@ public static class GamesEndPoints
             .WithName(getGameEndPointName);;
 
         groups.MapPost("/",(CreateGameDTO newDTO)=>{
-
-            if(String.IsNullOrEmpty(newDTO.name))
-            {
-                return Results.BadRequest("Name is Required!");
-            }
             GameDTO gameDTO = new (
                 gameDTOs.Count+1,
                 newDTO.name,
